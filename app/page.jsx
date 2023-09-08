@@ -1,4 +1,5 @@
 "use client";
+import { getProject, val } from "@theatre/core";
 import studio from "@theatre/studio";
 import extension from "@theatre/r3f/dist/extension";
 import {
@@ -19,7 +20,6 @@ import {
 import Lifeline from "./components/Lifeline";
 import Bloodhound from "./components/Bloodhound";
 import Horizon from "./components/Horizon";
-import { getProject, val } from "@theatre/core";
 
 studio.extend(extension);
 studio.initialize();
