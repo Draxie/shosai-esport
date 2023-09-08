@@ -1,12 +1,5 @@
 "use client";
-import core, { getProject, val } from "@theatre/core";
-import studio from "@theatre/studio";
-import extension from "@theatre/r3f/dist/extension";
-import {
-	SheetProvider,
-	PerspectiveCamera,
-	useCurrentSheet,
-} from "@theatre/r3f";
+import { getProject, val } from "@theatre/core";
 
 import React, { Suspense } from "react";
 import * as THREE from "three";
@@ -20,6 +13,13 @@ import {
 import Lifeline from "./components/Lifeline";
 import Bloodhound from "./components/Bloodhound";
 import Horizon from "./components/Horizon";
+import studio from "@theatre/studio";
+import extension from "@theatre/r3f/dist/extension";
+import {
+	SheetProvider,
+	PerspectiveCamera,
+	useCurrentSheet,
+} from "@theatre/r3f";
 
 studio.extend(extension);
 studio.initialize();
