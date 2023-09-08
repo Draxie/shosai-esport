@@ -1,5 +1,5 @@
 "use client";
-import { getProject, val } from "@theatre/core";
+import core, { getProject, val } from "@theatre/core";
 import studio from "@theatre/studio";
 import extension from "@theatre/r3f/dist/extension";
 import {
